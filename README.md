@@ -55,20 +55,22 @@ python app.py
 *Your webcam will open and detect faces with or without masks in real-time.
 *(If your main script is named differently, replace app.py with your script name.)
 ## Folder Structure
+```
 face-mask-detector/
 │
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
-├── app.py               <-- main script for detection
-├── check_model.py       <-- helper script to verify model
+├── app.py <-- main script for detection
+├── check_model.py <-- helper script to verify model
 ├── models/
-│   └── mask_detector_model.h5
+│ └── mask_detector_model.h5
 ├── images/
-│   ├── with_mask/
-│   └── without_mask/
+│ ├── with_mask/
+│ └── without_mask/
 └── utils/
-    └── helpers.py
+└── helpers.py
+ ```
  (Keep or remove files/folders if your project is slightly different.)
 ## Technologies Used
 * Python 3.x
@@ -84,3 +86,4 @@ face-mask-detector/
  Contributions are welcome! Please create a pull request or open an issue.
 ## License
 This project is licensed under the [MIT License](LICENSE).
+
