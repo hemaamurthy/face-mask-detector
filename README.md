@@ -37,6 +37,7 @@ It uses **Haarcascades** for face detection and a pre-trained model for mask cla
 
 
 ## Installation
+```
 1. Clone the repository:  
 git clone https://github.com/hemaamurthy/face-mask-detector.git
 cd face-mask-detector
@@ -54,6 +55,7 @@ Run the main script:
 python app.py
 *Your webcam will open and detect faces with or without masks in real-time.
 *(If your main script is named differently, replace app.py with your script name.)
+```
 ## Folder Structure
 ```
 face-mask-detector/
@@ -86,4 +88,5 @@ face-mask-detector/
  Contributions are welcome! Please create a pull request or open an issue.
 ## License
 This project is licensed under the [MIT License](LICENSE).
+
 
