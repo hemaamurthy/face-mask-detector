@@ -1,12 +1,56 @@
-# Ignore dataset folders
-dataset/
-*.zip
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
 # Ignore virtual environment
 .venv/
 env/
+venv/
+
+# Ignore dataset files
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.zip
+*.rar
+*.tar
+*.tar.gz
+dataset/
+data/
+
+# Ignore model weights / checkpoints
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+*.pb
+
+# Ignore logs and outputs
+*.log
+logs/
+outputs/
+checkpoints/
+
+# Ignore IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
 
 # Ignore temporary files
-__pycache__/
-*.pyc
-.DS_Store
+*.tmp
+*.bak
+*.orig
